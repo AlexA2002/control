@@ -1,7 +1,6 @@
 import React from "react";
 import loginImg from "../../Image2/svg-1.svg";
 import "../../components/style.scss";
-import signup-button from "../../components/Login/signup-button"
 
 class Register extends React.Component {
   constructor(props) {
@@ -32,9 +31,9 @@ class Register extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <h1>
-          {SignupButton}
-          </h1>
+          <button class = "btn">
+            Register
+          </button>
         </div>
       </div>
     );

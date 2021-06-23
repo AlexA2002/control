@@ -1,8 +1,8 @@
 import React from "react";
-import "./loginV.scss";
+import "../Login/loginV.scss";
 import Login from '../../pages/SignUp/login'
 import Register from '../../pages/SignUp/register'
-import {useAuth0} from "@auth0/auth0-react";
+
 
 
 class LoginV extends React.Component {

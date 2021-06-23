@@ -1,7 +1,6 @@
 import React from "react";
 import loginImg from "../../Image2/svg-1.svg";
 import "../../components/style.scss";
-import LoginButton from '../../components/Login/LoginButton';
 
 
 class Login extends React.Component {
@@ -29,9 +28,9 @@ class Login extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <h1>
-            {LoginButton}
-          </h1>
+            <button class = "btn">
+              Login
+            </button>
         </div>
       </div>
     );
